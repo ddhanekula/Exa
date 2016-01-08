@@ -24,7 +24,7 @@ float sampleValuediv=1.0;
 float samplevaluesub=0;
 
 int operation;
-
+int goaway=10;
 bool test=false;
 bool test2=false;
 bool test3=false;
