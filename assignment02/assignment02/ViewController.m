@@ -22,10 +22,13 @@ float sampleValue=0;
 float sampleValueMul=1;
 float sampleValuediv=1.0;
 float samplevaluesub=0;
+
+int operation;
+
 bool test=false;
 bool test2=false;
 bool test3=false;
-int operation;
+
 
 - (void)viewDidLoad
 {   [super viewDidLoad];
@@ -47,7 +50,6 @@ int operation;
 
 - (IBAction)add:(UIButton *)sender
 {
-   
     sampleValue = [_input.text floatValue]+sampleValue;
     _input.text=[NSString stringWithFormat:@"%.1f",sampleValue];
     _appendedString=@"";
